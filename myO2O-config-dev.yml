@@ -23,7 +23,7 @@ spring:
     connectionProperties.druid.stat.slowSqlMillis: 5000
 
 config:
-    desc: this is myO2O-config-dev
+    desc: config has changed
 
 
 
