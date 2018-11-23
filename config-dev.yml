@@ -29,5 +29,11 @@ spring:
     port: 5672
     username: guest
     password: guest
+    
 learn:
  desc: can you see me
+ 
+eureka:
+  instance:
+        leaseRenewalIntervalInSeconds: 10
+        leaseExpirationDurationInSeconds: 30
