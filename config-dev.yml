@@ -30,4 +30,4 @@ spring:
     username: guest
     password: guest
 learn:
- desc: only change one application
+ desc: can you see me
