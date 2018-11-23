@@ -25,10 +25,9 @@ spring:
     host: redis://172.16.1.73
     port: 6379
   rabbitmq:
-    host: 172.16.1.73
+    host: 127.0.0.1
     port: 5672
-    username: root
-    password: haoyi123
-    publisher-confirms: true
+    username: guest
+    password: guest
 learn:
  desc: only change one application
