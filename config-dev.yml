@@ -31,7 +31,7 @@ spring:
     password: guest
     
 learn:
- desc: can you see me
+ desc: hello world
  
 eureka:
   instance:
