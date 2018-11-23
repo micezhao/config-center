@@ -1,0 +1,34 @@
+spring:
+  #数据源配置
+  datasource:
+    url: jdbc:mysql://172.16.1.72:3306/test?characterEncoding=utf-8
+    username: root
+    password: haoyi123
+    #password: aaa
+    driverClassName: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: true 
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,log4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis= 500
+  redis:
+    host: redis://172.16.1.73
+    port: 6379
+  rabbitmq:
+    host: 172.16.1.73
+    port: 5672
+    username: root
+    password: haoyi123
+    publisher-confirms: true
+learn:
+ desc: only change one application
