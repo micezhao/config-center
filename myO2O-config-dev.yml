@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/demo?useUnique=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: aaa
+    password: root
     driverClassName: com.mysql.jdbc.Driver
     #Druid连接池配置
     initialSize: 5
