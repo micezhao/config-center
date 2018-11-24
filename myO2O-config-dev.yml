@@ -23,7 +23,7 @@ spring:
     connectionProperties.druid.stat.slowSqlMillis: 5000
 
 config:
-    desc: config has changed aaa
+    desc: config has changed update
 
 
 
